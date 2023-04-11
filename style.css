@@ -1,0 +1,19 @@
+.swiper-pagination-bullet {
+    height: 7px;
+    width: 26px;
+    border-radius: 25px;
+    background: #06b6d4;
+}
+
+.blink {
+    animation: blink 1.5s linear infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+    80% {
+        opacity: .5;
+    }
+}
